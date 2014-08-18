@@ -1,0 +1,28 @@
+body{
+    background-color: lightsteelblue;
+}
+
+table,td, th{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+tfoot tr td{
+    border: none;
+}
+.dayShift{
+    background-color: #fff73d;
+}
+.nightShift{
+    background-color: #1c368b;
+}
+#today{
+    background-color: firebrick;
+}
